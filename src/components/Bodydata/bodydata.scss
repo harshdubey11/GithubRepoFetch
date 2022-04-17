@@ -1,0 +1,37 @@
+.body-data{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.searchbar{
+    margin-top: 25px;
+    border: 1px solid gray;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    >*{
+        margin-left:25px;
+        margin-right:25px;
+    }
+    .select-options,.search{
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .search-btn{
+
+        height: 30px;
+        width: 60px;
+    }
+}
+.repo-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

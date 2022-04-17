@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#181818;
+ 
+    color: white;
+    width:320px;
+    min-height: 230px;
+    max-height: 500px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    margin: 20px;
+    .avatar{
+    height: 250px;
+    width: 100%;
+    }
+ .details{
+     display: flex;
+     
+     justify-content: center;
+     flex-direction: column;
+     list-style: none;
+ }
+ .item{
+    overflow: hidden;
+    margin: 5px;
+
+ }
+    .key{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+    .value{ 
+        overflow: hidden;
+        font-size: 16px;
+        text-align: justify;
+    }
+}
